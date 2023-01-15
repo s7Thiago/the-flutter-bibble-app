@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:the_bibble_app/tools/file_tools.dart';
+import 'package:the_bibble_app/tools/titulos/titulo.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,7 +13,31 @@ void main() async {
 
   List<dynamic> dados = jsonDecode(content);
 
-  String json = jsonEncode("");
+  Titulo titulo = Titulo(dados.map((e) {
+    List<String> header = (e['header']).cast<String>();
+    List<List<String>> rows = (e['rows'] as List)
+        .map((j) => (j as List).cast<String>().toList())
+        .toList();
+
+    return Item(header, rows);
+  }).toList());
+
+  List<TituloDefine> tituloDefine = titulo.dados[0].rows.map((e) {
+    return TituloDefine(
+      int.parse(e[0]),
+      e[1],
+      int.parse(e[2]),
+      int.parse(e[3]),
+      int.parse(e[4]),
+      e[5],
+    );
+  }).toList();
+
+  String json = jsonEncode(tituloDefine
+      .map(
+        (e) => e.toMap(),
+      )
+      .toList());
 
   runApp(const Home());
 }
