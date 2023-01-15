@@ -2,36 +2,17 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:the_bibble_app/tools/file_tools.dart';
-import 'package:the_bibble_app/tools/livro/livro_converter.dart';
-import 'package:the_bibble_app/tools/livro/livro_old.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   FileTools fTool = FileTools();
 
-  String content = await fTool.loadFromBibbleJson('livro');
+  String content = await fTool.loadFromBibbleJson('titulo');
 
   List<dynamic> dados = jsonDecode(content);
 
-  LivroOld lOld = LivroOld(dados.map((e) {
-    List<String> header = (e['header'] as List).cast<String>();
-    List<List<String>> rows =
-        (e['rows'] as List).map((j) => (j as List).cast<String>()).toList();
-
-    return InnerObj(header, rows);
-  }).toList());
-
-  String json = jsonEncode(lOld.data[0].rows
-      .map(
-        (e) => Livro(
-          idLivro: e[0],
-          nome: e[1],
-          testamento: e[2],
-          qtdeCapitulo: e[3],
-        ),
-      )
-      .toList().map((e) => e.toMap()).toList());
+  String json = jsonEncode("");
 
   runApp(const Home());
 }
