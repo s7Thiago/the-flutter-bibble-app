@@ -10,5 +10,11 @@ class Livro {
     required this.testamento,
     required this.qtdeCapitulo,
   });
-}
 
+  Map<String, dynamic>  toMap() => {
+        "idLivro": idLivro,
+        "nome": nome,
+        "testamento": testamento,
+        "qtdeCapitulo": qtdeCapitulo,
+      };
+}
