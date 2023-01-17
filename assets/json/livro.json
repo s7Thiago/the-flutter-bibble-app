@@ -1,398 +1,398 @@
 [
     {
-        "idLivro": "1",
+        "idLivro": 1,
         "nome": "Gênesis",
         "testamento": "AT",
-        "qtdeCapitulo": "50"
+        "qtdeCapitulo": 50
     },
     {
-        "idLivro": "2",
+        "idLivro": 2,
         "nome": "Êxodo",
         "testamento": "AT",
-        "qtdeCapitulo": "40"
+        "qtdeCapitulo": 40
     },
     {
-        "idLivro": "3",
+        "idLivro": 3,
         "nome": "Levítico",
         "testamento": "AT",
-        "qtdeCapitulo": "27"
+        "qtdeCapitulo": 27
     },
     {
-        "idLivro": "4",
+        "idLivro": 4,
         "nome": "Números",
         "testamento": "AT",
-        "qtdeCapitulo": "36"
+        "qtdeCapitulo": 36
     },
     {
-        "idLivro": "5",
+        "idLivro": 5,
         "nome": "Deuteronômio",
         "testamento": "AT",
-        "qtdeCapitulo": "34"
+        "qtdeCapitulo": 34
     },
     {
-        "idLivro": "6",
+        "idLivro": 6,
         "nome": "Josué",
         "testamento": "AT",
-        "qtdeCapitulo": "24"
+        "qtdeCapitulo": 24
     },
     {
-        "idLivro": "7",
+        "idLivro": 7,
         "nome": "Juízes",
         "testamento": "AT",
-        "qtdeCapitulo": "21"
+        "qtdeCapitulo": 21
     },
     {
-        "idLivro": "8",
+        "idLivro": 8,
         "nome": "Rute",
         "testamento": "AT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "9",
+        "idLivro": 9,
         "nome": "I Samuel",
         "testamento": "AT",
-        "qtdeCapitulo": "31"
+        "qtdeCapitulo": 31
     },
     {
-        "idLivro": "10",
+        "idLivro": 10,
         "nome": "II Samuel",
         "testamento": "AT",
-        "qtdeCapitulo": "24"
+        "qtdeCapitulo": 24
     },
     {
-        "idLivro": "11",
+        "idLivro": 11,
         "nome": "I Reis",
         "testamento": "AT",
-        "qtdeCapitulo": "22"
+        "qtdeCapitulo": 22
     },
     {
-        "idLivro": "12",
+        "idLivro": 12,
         "nome": "II Reis",
         "testamento": "AT",
-        "qtdeCapitulo": "25"
+        "qtdeCapitulo": 25
     },
     {
-        "idLivro": "13",
+        "idLivro": 13,
         "nome": "I Crônicas",
         "testamento": "AT",
-        "qtdeCapitulo": "29"
+        "qtdeCapitulo": 29
     },
     {
-        "idLivro": "14",
+        "idLivro": 14,
         "nome": "II Crônicas",
         "testamento": "AT",
-        "qtdeCapitulo": "36"
+        "qtdeCapitulo": 36
     },
     {
-        "idLivro": "15",
+        "idLivro": 15,
         "nome": "Esdras",
         "testamento": "AT",
-        "qtdeCapitulo": "10"
+        "qtdeCapitulo": 10
     },
     {
-        "idLivro": "16",
+        "idLivro": 16,
         "nome": "Neemias",
         "testamento": "AT",
-        "qtdeCapitulo": "13"
+        "qtdeCapitulo": 13
     },
     {
-        "idLivro": "17",
+        "idLivro": 17,
         "nome": "Ester",
         "testamento": "AT",
-        "qtdeCapitulo": "10"
+        "qtdeCapitulo": 10
     },
     {
-        "idLivro": "18",
+        "idLivro": 18,
         "nome": "Jó",
         "testamento": "AT",
-        "qtdeCapitulo": "42"
+        "qtdeCapitulo": 42
     },
     {
-        "idLivro": "19",
+        "idLivro": 19,
         "nome": "Salmos",
         "testamento": "AT",
-        "qtdeCapitulo": "150"
+        "qtdeCapitulo": 150
     },
     {
-        "idLivro": "20",
+        "idLivro": 20,
         "nome": "Provérbios",
         "testamento": "AT",
-        "qtdeCapitulo": "31"
+        "qtdeCapitulo": 31
     },
     {
-        "idLivro": "21",
+        "idLivro": 21,
         "nome": "Eclesiastes",
         "testamento": "AT",
-        "qtdeCapitulo": "12"
+        "qtdeCapitulo": 12
     },
     {
-        "idLivro": "22",
+        "idLivro": 22,
         "nome": "Cantares",
         "testamento": "AT",
-        "qtdeCapitulo": "8"
+        "qtdeCapitulo": 8
     },
     {
-        "idLivro": "23",
+        "idLivro": 23,
         "nome": "Isaías",
         "testamento": "AT",
-        "qtdeCapitulo": "66"
+        "qtdeCapitulo": 66
     },
     {
-        "idLivro": "24",
+        "idLivro": 24,
         "nome": "Jeremias",
         "testamento": "AT",
-        "qtdeCapitulo": "52"
+        "qtdeCapitulo": 52
     },
     {
-        "idLivro": "25",
+        "idLivro": 25,
         "nome": "Lamentações",
         "testamento": "AT",
-        "qtdeCapitulo": "5"
+        "qtdeCapitulo": 5
     },
     {
-        "idLivro": "26",
+        "idLivro": 26,
         "nome": "Ezequiel",
         "testamento": "AT",
-        "qtdeCapitulo": "48"
+        "qtdeCapitulo": 48
     },
     {
-        "idLivro": "27",
+        "idLivro": 27,
         "nome": "Daniel",
         "testamento": "AT",
-        "qtdeCapitulo": "12"
+        "qtdeCapitulo": 12
     },
     {
-        "idLivro": "28",
+        "idLivro": 28,
         "nome": "Oseias",
         "testamento": "AT",
-        "qtdeCapitulo": "14"
+        "qtdeCapitulo": 14
     },
     {
-        "idLivro": "29",
+        "idLivro": 29,
         "nome": "Joel",
         "testamento": "AT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "30",
+        "idLivro": 30,
         "nome": "Amós",
         "testamento": "AT",
-        "qtdeCapitulo": "9"
+        "qtdeCapitulo": 9
     },
     {
-        "idLivro": "31",
+        "idLivro": 31,
         "nome": "Obadias",
         "testamento": "AT",
-        "qtdeCapitulo": "1"
+        "qtdeCapitulo": 1
     },
     {
-        "idLivro": "32",
+        "idLivro": 32,
         "nome": "Jonas",
         "testamento": "AT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "33",
+        "idLivro": 33,
         "nome": "Miqueias",
         "testamento": "AT",
-        "qtdeCapitulo": "7"
+        "qtdeCapitulo": 7
     },
     {
-        "idLivro": "34",
+        "idLivro": 34,
         "nome": "Naum",
         "testamento": "AT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "35",
+        "idLivro": 35,
         "nome": "Habacuque",
         "testamento": "AT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "36",
+        "idLivro": 36,
         "nome": "Sofonias",
         "testamento": "AT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "37",
+        "idLivro": 37,
         "nome": "Ageu",
         "testamento": "AT",
-        "qtdeCapitulo": "2"
+        "qtdeCapitulo": 2
     },
     {
-        "idLivro": "38",
+        "idLivro": 38,
         "nome": "Zacarias",
         "testamento": "AT",
-        "qtdeCapitulo": "14"
+        "qtdeCapitulo": 14
     },
     {
-        "idLivro": "39",
+        "idLivro": 39,
         "nome": "Malaquias",
         "testamento": "AT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "40",
+        "idLivro": 40,
         "nome": "Mateus",
         "testamento": "NT",
-        "qtdeCapitulo": "28"
+        "qtdeCapitulo": 28
     },
     {
-        "idLivro": "41",
+        "idLivro": 41,
         "nome": "Marcos",
         "testamento": "NT",
-        "qtdeCapitulo": "16"
+        "qtdeCapitulo": 16
     },
     {
-        "idLivro": "42",
+        "idLivro": 42,
         "nome": "Lucas",
         "testamento": "NT",
-        "qtdeCapitulo": "24"
+        "qtdeCapitulo": 24
     },
     {
-        "idLivro": "43",
+        "idLivro": 43,
         "nome": "João",
         "testamento": "NT",
-        "qtdeCapitulo": "21"
+        "qtdeCapitulo": 21
     },
     {
-        "idLivro": "44",
+        "idLivro": 44,
         "nome": "Atos",
         "testamento": "NT",
-        "qtdeCapitulo": "28"
+        "qtdeCapitulo": 28
     },
     {
-        "idLivro": "45",
+        "idLivro": 45,
         "nome": "Romanos",
         "testamento": "NT",
-        "qtdeCapitulo": "16"
+        "qtdeCapitulo": 16
     },
     {
-        "idLivro": "46",
+        "idLivro": 46,
         "nome": "I Coríntios",
         "testamento": "NT",
-        "qtdeCapitulo": "16"
+        "qtdeCapitulo": 16
     },
     {
-        "idLivro": "47",
+        "idLivro": 47,
         "nome": "II Coríntios",
         "testamento": "NT",
-        "qtdeCapitulo": "13"
+        "qtdeCapitulo": 13
     },
     {
-        "idLivro": "48",
+        "idLivro": 48,
         "nome": "Gálatas",
         "testamento": "NT",
-        "qtdeCapitulo": "6"
+        "qtdeCapitulo": 6
     },
     {
-        "idLivro": "49",
+        "idLivro": 49,
         "nome": "Efésios",
         "testamento": "NT",
-        "qtdeCapitulo": "6"
+        "qtdeCapitulo": 6
     },
     {
-        "idLivro": "50",
+        "idLivro": 50,
         "nome": "Filipenses",
         "testamento": "NT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "51",
+        "idLivro": 51,
         "nome": "Colossenses",
         "testamento": "NT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "52",
+        "idLivro": 52,
         "nome": "I Tessalonicenses",
         "testamento": "NT",
-        "qtdeCapitulo": "5"
+        "qtdeCapitulo": 5
     },
     {
-        "idLivro": "53",
+        "idLivro": 53,
         "nome": "II Tessalonicenses",
         "testamento": "NT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "54",
+        "idLivro": 54,
         "nome": "I Timóteo",
         "testamento": "NT",
-        "qtdeCapitulo": "6"
+        "qtdeCapitulo": 6
     },
     {
-        "idLivro": "55",
+        "idLivro": 55,
         "nome": "II Timóteo",
         "testamento": "NT",
-        "qtdeCapitulo": "4"
+        "qtdeCapitulo": 4
     },
     {
-        "idLivro": "56",
+        "idLivro": 56,
         "nome": "Tito",
         "testamento": "NT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "57",
+        "idLivro": 57,
         "nome": "Filemon",
         "testamento": "NT",
-        "qtdeCapitulo": "1"
+        "qtdeCapitulo": 1
     },
     {
-        "idLivro": "58",
+        "idLivro": 58,
         "nome": "Hebreus",
         "testamento": "NT",
-        "qtdeCapitulo": "13"
+        "qtdeCapitulo": 13
     },
     {
-        "idLivro": "59",
+        "idLivro": 59,
         "nome": "Tiago",
         "testamento": "NT",
-        "qtdeCapitulo": "5"
+        "qtdeCapitulo": 5
     },
     {
-        "idLivro": "60",
+        "idLivro": 60,
         "nome": "I Pedro",
         "testamento": "NT",
-        "qtdeCapitulo": "5"
+        "qtdeCapitulo": 5
     },
     {
-        "idLivro": "61",
+        "idLivro": 61,
         "nome": "II Pedro",
         "testamento": "NT",
-        "qtdeCapitulo": "3"
+        "qtdeCapitulo": 3
     },
     {
-        "idLivro": "62",
+        "idLivro": 62,
         "nome": "I João",
         "testamento": "NT",
-        "qtdeCapitulo": "5"
+        "qtdeCapitulo": 5
     },
     {
-        "idLivro": "63",
+        "idLivro": 63,
         "nome": "II João",
         "testamento": "NT",
-        "qtdeCapitulo": "1"
+        "qtdeCapitulo": 1
     },
     {
-        "idLivro": "64",
+        "idLivro": 64,
         "nome": "III João",
         "testamento": "NT",
-        "qtdeCapitulo": "1"
+        "qtdeCapitulo": 1
     },
     {
-        "idLivro": "65",
+        "idLivro": 65,
         "nome": "Judas",
         "testamento": "NT",
-        "qtdeCapitulo": "1"
+        "qtdeCapitulo": 1
     },
     {
-        "idLivro": "66",
+        "idLivro": 66,
         "nome": "Apocalipse",
         "testamento": "NT",
-        "qtdeCapitulo": "22"
+        "qtdeCapitulo": 22
     }
 ]
