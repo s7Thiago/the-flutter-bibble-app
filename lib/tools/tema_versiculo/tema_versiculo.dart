@@ -40,12 +40,14 @@ class TargetData {
 class TargetDataOk {
   final int id;
   final int capitulo;
-  final int qtdeVersiculos;
+  final int versiculo;
+  final String texto;
 
   TargetDataOk({
     required this.id,
     required this.capitulo,
-    required this.qtdeVersiculos,
+    required this.versiculo,
+    required this.texto,
   });
 
   // toMap
@@ -53,7 +55,8 @@ class TargetDataOk {
     return {
       'id': id,
       'capitulo': capitulo,
-      'qtdeVersiculos': qtdeVersiculos,
+      'versiculo': versiculo,
+      'texto': texto,
     };
   }
 }

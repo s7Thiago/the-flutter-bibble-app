@@ -9,7 +9,7 @@ void main() async {
 
   FileTools fTool = FileTools();
 
-  String content = await fTool.loadFromBibbleJson('capitulo');
+  String content = await fTool.loadFromBibbleJson('versiculo');
 
   List<dynamic> dados = jsonDecode(content);
 
@@ -21,7 +21,8 @@ void main() async {
       .map((e) => TargetDataOk(
             id: int.parse(e[0]),
             capitulo: int.parse(e[1]),
-            qtdeVersiculos: int.parse(e[2]),
+            versiculo: int.parse(e[2]),
+            texto: e[3],
           ))
       .toList();
 
