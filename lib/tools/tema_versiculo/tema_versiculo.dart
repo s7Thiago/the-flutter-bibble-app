@@ -1,11 +1,11 @@
-class TemaVersiculoData {
+class InnerData {
   final List<String> header;
   final List<List<dynamic>> rows;
 
-  TemaVersiculoData(this.header, this.rows);
+  InnerData(this.header, this.rows);
 
-  factory TemaVersiculoData.fromMap(Map<String, dynamic> map) {
-    return TemaVersiculoData(
+  factory InnerData.fromMap(Map<String, dynamic> map) {
+    return InnerData(
       (map['header']).cast<String>(),
       (map['rows']).cast<List<dynamic>>(),
     );
@@ -19,14 +19,14 @@ class TemaVersiculoData {
   }
 }
 
-class TemaVersiculo {
-  final List<TemaVersiculoData> data;
+class TargetData {
+  final List<InnerData> data;
 
-  TemaVersiculo(this.data);
+  TargetData(this.data);
 
-  factory TemaVersiculo.fromMap(List<dynamic> data) {
-    return TemaVersiculo(
-      data.map((e) => TemaVersiculoData.fromMap(e)).toList(),
+  factory TargetData.fromMap(List<dynamic> data) {
+    return TargetData(
+      data.map((e) => InnerData.fromMap(e)).toList(),
     );
   }
 
@@ -37,32 +37,23 @@ class TemaVersiculo {
   }
 }
 
-class TemaVersiculoOk {
+class TargetDataOk {
   final int id;
-  final int idTema;
-  final int sequencia;
-  final int idLivro;
   final int capitulo;
-  final int versiculo;
+  final int qtdeVersiculos;
 
-  TemaVersiculoOk({
+  TargetDataOk({
     required this.id,
-    required this.idTema,
-    required this.sequencia,
-    required this.idLivro,
     required this.capitulo,
-    required this.versiculo,
+    required this.qtdeVersiculos,
   });
 
   // toMap
   Map<String, dynamic> toMap() {
     return {
       'id': id,
-      'idTema': idTema,
-      'sequencia': sequencia,
-      'idLivro': idLivro,
       'capitulo': capitulo,
-      'versiculo': versiculo,
+      'qtdeVersiculos': qtdeVersiculos,
     };
   }
 }

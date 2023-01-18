@@ -9,22 +9,19 @@ void main() async {
 
   FileTools fTool = FileTools();
 
-  String content = await fTool.loadFromBibbleJson('tema_versiculo');
+  String content = await fTool.loadFromBibbleJson('capitulo');
 
   List<dynamic> dados = jsonDecode(content);
 
-  List<TemaVersiculoData> temasOld =
-      dados.map((e) => TemaVersiculoData.fromMap(e)).toList();
+  List<InnerData> temasOld =
+      dados.map((e) => InnerData.fromMap(e)).toList();
 
-  List<TemaVersiculoOk> temas = temasOld[0]
+  List<TargetDataOk> temas = temasOld[0]
       .rows
-      .map((e) => TemaVersiculoOk(
+      .map((e) => TargetDataOk(
             id: int.parse(e[0]),
-            idTema: int.parse(e[1]),
-            sequencia: int.parse(e[2]),
-            idLivro: int.parse(e[3]),
-            capitulo: int.parse(e[4]),
-            versiculo: int.parse(e[5]),
+            capitulo: int.parse(e[1]),
+            qtdeVersiculos: int.parse(e[2]),
           ))
       .toList();
 
