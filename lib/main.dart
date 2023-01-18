@@ -2,22 +2,33 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:the_bibble_app/tools/file_tools.dart';
-import 'package:the_bibble_app/tools/livro/livro.dart';
+import 'package:the_bibble_app/tools/tema_versiculo/tema_versiculo.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   FileTools fTool = FileTools();
 
-  String content = await fTool.loadFromBibbleJson('livro');
+  String content = await fTool.loadFromBibbleJson('tema_versiculo');
 
   List<dynamic> dados = jsonDecode(content);
 
-  List<Livro> livros = dados.map((e) => Livro.fromMap(e)).toList();
+  List<TemaVersiculoData> temasOld =
+      dados.map((e) => TemaVersiculoData.fromMap(e)).toList();
 
+  List<TemaVersiculoOk> temas = temasOld[0]
+      .rows
+      .map((e) => TemaVersiculoOk(
+            id: int.parse(e[0]),
+            idTema: int.parse(e[1]),
+            sequencia: int.parse(e[2]),
+            idLivro: int.parse(e[3]),
+            capitulo: int.parse(e[4]),
+            versiculo: int.parse(e[5]),
+          ))
+      .toList();
 
-
-  String json = jsonEncode(livros
+  String json = jsonEncode(temas
       .map(
         (e) => e.toMap(),
       )
